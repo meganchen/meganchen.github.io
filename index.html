@@ -1,9 +1,70 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Megan Chen</title>
-	</head>
-	<body>
-		<a href="http://about.me/meganchen">Megan Chen</a>
-	</body>
+<head>
+	<title>Megan Chen</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- JQuery -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	
+	<!-- Google Eagle Lake Font -->
+	<link href='http://fonts.googleapis.com/css?family=Eagle+Lake' rel='stylesheet' type='text/css'>
+	
+	<!-- Titillium Web Font -->
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+	
+	<!-- My Scripts -->
+	<script type="text/javascript" src="config.js"></script>
+	<link rel="stylesheet" type="text/css" href="layout.css"/>
+</head>
+
+<body>
+	<div id="name">
+		<!--Navigation-->
+		<ul id="header">
+			<li class="header_link" id="nav_homeButton">Home</li>
+			<!--<a href="https://about.me/meganchen"><li class="header_link" id="aboutme">aboutme</li></a>-->
+			<!--Dropdown Menu/Sidebar-->
+			<li class="header_link" id="nav_navButton">Nav</li>
+			<ul id="nav_navMenu">
+				<li class="nav_navMenu_link" id="navMenu_home">Home</li>
+				<li class="nav_navMenu_link" id="navMenu_aboutme">About me</li>
+				<li class="nav_navMenu_link" id="navMenu_contact">Contact</li>
+			</ul>
+		</ul>
+		
+		<!--Home page-->
+		<div class="page" id="home">
+			<h2 id="home_title">Megan<br>Chen</h1>
+		</div>
+		
+		<!--About page-->
+		<div class="page" id="about">
+			<!--<div class="overlay_box" id="about_panel"></div>-->
+				<div id="about_FBProfilePic">
+					<img src="img/FB_profile.jpg" id="about_FBProfileIMG">
+				</div>
+				<div id="about_intro">
+					<div class="about_panel_elt" id="about_introtext">
+						<h1>About Me</h1>
+						<p>Hello! My name is Megan. I love learning about math, environmental sustainability, and web programming. My hobbies include exploring Boston, playing ultimate frisbee, and cooking. I'm excited to see where life takes me. Nice to meet you!</p>
+					</div>
+				</div>
+		</div>
+		
+		<!--Contact page-->
+		<div class="page" id="contact">
+			<div class="overlay_box" id="contact_panel">
+				<h1>CONTACT</h1>
+				<ul id="contact_list">
+					<li><a href="https://github.com/meganchen">Github</a></li>
+					<li><a href="https://about.me/meganchen">about.me</a></li>
+					<li>mchen0000@gmail.com</li>
+				</ul>	
+			</div>
+		</div>
+		
+	</div>
+</body>
 </html>
