@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Megan Chen&#39;s Blog</title>
+    <atom:link href="http://m.eganchen.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>http://m.eganchen.com/blog/</link>
+    <description>Megan&#39;s blog</description>
+    <pubDate>Fri, 23 Jan 2015 14:27:08 -0500</pubDate>
+    
+      <item>
+        <title>Hello World</title>
+        <link>http://m.eganchen.com/blog/2015/01/23/hello-world.html</link>
+        <guid isPermaLink="true">http://m.eganchen.com/blog/2015/01/23/hello-world.html</guid>
+        <description>&lt;p&gt;Hello world! This is my first blog post. Hope to be posting more soon!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Jan 2015 00:00:00 -0500</pubDate>
+      </item>
+    
+  </channel>
+</rss>
