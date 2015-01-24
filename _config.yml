@@ -43,8 +43,8 @@ theme:
   home: "http://m.eganchen.com"
   
   # Scripts
-  google_analytics: # tracking id, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: "UA-55651889-1" # tracking id, e.g. "UA-000000-01"
+  disqus_shortname: meganchen
   
   # Localization strings
   #str_follow_on: "Follow on"

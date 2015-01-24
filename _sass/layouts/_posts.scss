@@ -44,3 +44,9 @@ header {
     @extend %padding-regular;
   }
 }
+
+//disqus styling
+#disqus_thread{
+	margin: auto;
+	width: 80%;
+}
