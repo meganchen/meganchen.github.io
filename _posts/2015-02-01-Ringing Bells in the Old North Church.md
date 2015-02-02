@@ -24,7 +24,7 @@ After lessons, the Bellringers sent the newbies up to the bell room to watch the
 
 Fun fact: The bells in the Old North Church are the originals cast in 1744.
 
-Afterwards, the whole group grabbed lunch from Ernesto's. The slice of pizza that I received is the largest I've ever ordered. I ate the whole thing too. 
+Afterwards, the whole group grabbed lunch from [Ernesto's](http://www.ernestosnorthend.com/index.html "Ernesto's"). The slice of pizza that I received is the largest I've ever ordered. I ate the whole thing too. 
 
 ![Ernesto's Pizza Slice](/img/2015-02-01/ernestospizza.jpg "Ernesto's Pizza Slice")
 Note: The slice was cut in half prior to serving, hence the two slices in the picture.
