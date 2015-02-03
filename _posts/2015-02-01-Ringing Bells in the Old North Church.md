@@ -19,8 +19,10 @@ The Old North Church has 8 tower bells. A bell rings when a bellringer pulls on 
 ![Bell Ropes and Window](/img/2015-02-01/BellRopes&Window.jpg "Bell Ropes and Window")
 
 After lessons, the Bellringers sent the newbies up to the bell room to watch the bells in action while the Bellringers performed some short rounds.
-
-[Photo of the bells to be added...]
+<video width="800" height="600" controls>
+    <source src="/img/2015-02-01/OldNorthChurchBells.mp4" type="video/mp4"> </source>
+Your browser does not support the video tag.
+</video>
 
 Fun fact: The bells in the Old North Church are the originals cast in 1744.
 
