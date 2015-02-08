@@ -5,7 +5,7 @@ url: "http://m.eganchen.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Megan Chen's Blog
+  title: Megan Chen's Happiness Blog
   avatar: #need to uncomment in header.html
   gravatar: #need to uncomment in header.html
   description: "Megan's blog" # used by search engines

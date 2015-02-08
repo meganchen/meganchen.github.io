@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Type Theme About
+permalink: /type-theme-about/
 feature-img: "img/sample_feature_img_2.png"
 hide: true
 ---
