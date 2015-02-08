@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bonding Over Dvorak
+author: Megan
 tags:
     -happiness projects
     -Dvorak
