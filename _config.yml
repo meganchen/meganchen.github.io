@@ -5,10 +5,10 @@ url: "http://m.eganchen.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Megan Chen's Happiness Blog
+  title: Happiness Blog
   avatar: #need to uncomment in header.html
   gravatar: #need to uncomment in header.html
-  description: "Megan's blog" # used by search engines
+  description: "blog" # used by search engines
   
   # Header and footer text
   #header_text: >

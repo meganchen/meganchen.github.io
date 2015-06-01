@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Megan Chen&#39;s Happiness Blog</title>
+    <title>Happiness Blog</title>
     <atom:link href="http://m.eganchen.com/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://m.eganchen.com/</link>
-    <description>Megan&#39;s blog</description>
-    <pubDate>Sun, 31 May 2015 00:23:07 -0400</pubDate>
+    <description>blog</description>
+    <pubDate>Mon, 01 Jun 2015 12:53:28 -0400</pubDate>
+    
+      <item>
+        <title>After-Dinner Stroll</title>
+        <link>http://m.eganchen.com/2015/05/31/after-dinner-stroll.html</link>
+        <guid isPermaLink="true">http://m.eganchen.com/2015/05/31/after-dinner-stroll.html</guid>
+        <description>&lt;p&gt;After dinner today, Mom and I took a stroll around the neighborhood. We were originally going to walk to a family friend’s house, but were ended up looping around my neighborhood instead. It was nice to finally get some cool fresh air.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 May 2015 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>The Imitation Game</title>

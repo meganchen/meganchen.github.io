@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hello World
-author: Megan
 feature-img: "img/wellesley_college_sunrise.jpg"
+author: Megan
 tags:
     -hello world
 ---
