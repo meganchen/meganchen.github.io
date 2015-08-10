@@ -21,10 +21,16 @@ html {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
     margin: 0 0 30px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    color: #444;
+}
+
+h4 {
+    margin: 0 0 10px;
     font-family: 'Varela Round', sans-serif;
     font-weight: 400;
     color: #444;
@@ -40,6 +46,7 @@ p {
     margin: 0 0 20px;
     font-size: 16px;
     line-height: 1.6em;
+	color:#515151;
 }
 
 p.lead {
@@ -52,17 +59,17 @@ a {
     transition: all .2s ease-in-out;
 }
 
-a:hover,
-a:focus {
-    text-decoration: none;
-}
-
 .light {
     font-weight: 400;
 }
 
 img.img-responsive {
 	margin-bottom: 20px;
+}
+
+ul {
+	list-style-type: none;
+	color:#515151;
 }
 
 
