@@ -1,0 +1,26 @@
+:root {
+    --dark_gray:#525363;
+		--link_blue:#5f93e8;
+		--resume_blue:#5f93e8;
+}
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+body {
+	color: var(--dark_gray);
+	
+}
+
+a{
+	color: var(--link_blue);
+}
+
+.jumbotron-math{
+	background-image: url("/img/esztergom.JPG");
+	background-size: cover;
+	border-radius: 0!important;
+}

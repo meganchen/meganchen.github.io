@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Megan Chen</title>
+    
+		<!--CSS-->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="css/custom.css" rel="stylesheet" type="text/css">
+		
+		<!--Javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+		
+		<!--[if lt IE 9]>
+		    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		  <![endif]-->
+			
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+		  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+		});
+		</script>
+  </head>
+	<body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-centered">
+		
+				<div class="page-header">
+				  <a id="header-name" href="index.html"><h3>Megan Chen</h3></a>
+				</div>
+		
+				<div class="jumbotron jumbotron-math">
+				  <h1><small>Stuff I Wrote About</small> Cool Math</h1>
+					<br>
+					<br>
+					<br>
+				</div>
+		
+		
+			<div class="page-header">
+			  <h3>Math Review of <a href="http://math.stanford.edu/~vakil/files/monthly116-129-vakil.pdf">''The Mathematics of Doodling'' by Ravi Vakil</a></h3>
+				<p>(April 2017)</p>
+			</div>
+			
+			This paper illuminates the discovery process of mathematics: how asking a simple question, finding patterns, then asking interesting follow-up questions can inspire a journey of deep mathematical exploration. Vakil surveys mathematical ideas involved when examining certain properties of neighborhoods ($N_r$): the circular nature of $N_r$ as its radius approaches infinity and that $N_r$'s volume can be written as a polynomial. <br><br>
+
+			The paper begins by examining two-dimensional shapes. Given a shape $X$ on a piece of paper, such as the letter ''M'', tightly draw a curve around it. Repeat this to draw more and more curves. <br><br>
+
+			Mathematically, the union of these curves is called a neighborhood. Another definition of a neighborhood is the set of points which are less than fixed radius away from a set. Given a shape $X$ and a constant $r \geq 0$, the ''radius $r$ neighborhood of $X$'' is
+    
+		    
+			        \begin{equation}
+			            N_r(X) = \{y: d(x,y) \leq r \textrm{ for some } x \in X\}.
+			            %where d(x,y) stands for "distance"
+			        \end{equation}
+		    
+
+			Vakil proves that as $r$ approaches infinity, we can squeeze $N_r(X)$ between two discs which converge in size. Hence $N_r(X)$ becomes more circular.
+
+			Next, Vakil examines how the area (Area) and perimeter (Perim) of a neighborhood changes depending on $X$. If $X$ is a convex polygon, then
+
+			        \begin{equation}
+			            \textrm{Perim}(N_r(X)) = \textrm{Perim}(X) + 2\pi r \\
+			        \end{equation}
+			        \begin{equation}    
+			            \textrm{Area}(N_r(X)) = \textrm{Area}(X) + \textrm{Perim}(X)r + \pi r^2.
+			        \end{equation}
+
+			This result also holds for all convex shapes which are not polygons. Further, if we remove the convexity assumption, this exact formula works if we use the notion of \textit{area with multiplicity}, i.e. overlapping areas of $N_r$ count doubly. For shapes such as a figure eight or a double loop, the perimeter and area equations differ slightly. In all cases, Vakil observes that the perimeter equation is the derivative of the area equation with respect to $r$. In fact, these equations are polynomial with respect to $r$ with well-chosen coefficients. Moving to shapes in higher dimensions, this polynomial behavior holds for the volume equation of $N_r$. <br><br>
+
+			An invariant is a property that remains unchanged under some operation. The area of a two-dimensional shape is invariant if we slice it using a finite number of straight line cuts. The same is true for perimeter. The coefficients of $N_r$'s volume equation are precisely the equations for the original shape's invariants, such as ''surface area'' and ''volume''. Vakil's earlier equation for $\textrm{Perim}(N_r(X))$ and $\textrm{Area}(N_r(X))$ have coefficients that are geometric invariants of $X$. <br><br>
+
+			To start understand higher dimension geometric invariants, Vakil presents the following interpretation. Shine a ''light'' on onto the original shape. Then, take the average area (over all possible directions from which the light is shines) of its $k$-dimensional shadow and multiply it by some constant. For example, we can find the perimeter (i.e. one-dimensional invariant) of a two-dimensional shape by finding the average length of a shadow (a line segment) and multiplying by the constant $\pi$. <br><br>
+
+			In general, understanding the $k$-dimensional invariant in an $n$ dimensional space requires algebraic geometry, a branch of mathematics that uses abstract algebra to study geometric problems. In particular, understanding \textit{moduli spaces}, parametrized isomorphism classes of algebraic objects, generalizes all families of surfaces. <br><br>
+
+			Witten's conjecture gives information about the shape of moduli spaces. Vakil highlights Mirzakhani's proof of Witten's conjecture because it shares characteristics with Vakil's earlier observations about perimeter and area equations. Mirzakhani shows that volumes can be expressed as a polynomial and that the leading coefficients of the polynomial have meaning, much like how geometric invariants have meaning in Vakil's equations. <br><br>
+
+		
+			<div class="page-header">
+			  <h3>"Facebook Post" Advertising Sperner's Lemma for Triangles</h3>
+				<p>(May 2017)</p>
+			</div>
+			
+			After graduating from Wellesley, Ada, Bella, and Callie decide to move into an apartment together in Washington D.C. They settle upon an apartment with three rooms of different sizes: small, smaller, and smallest. Rent costs $2000 a month. Ada wants windows in her room, Bella wants quiet, and Callie’s happy to pay extra. Is it possible for all three to choose rooms they like and to divide the rent suitably for everyone? <br><br>
+			
+			Luckily there is a mathematical method, which relies on Sperner's Lemma for Triangles. <br><br>
+			
+			First, split a triangle into many smaller triangles (see Figure 1). Label the triangle following these rules:
+			<ol>
+				<li>Label all of the red points different labels, like A, B, and C.</li>
+				<li>Label the (blue) points along the edges of the triangle to match one of the red vertices on that edge.</li>
+				<li>Randomly assign A, B, or C to the inside (purple) point(s).</li>
+			</ol>
+			<div class="container">
+				<img src="img/sperner'slemma.png"></img><br>
+				<p class="text-center">Figure 1: Example Labelling</p>
+			</div>
+			<br>
+			After labelling, Sperner’s lemma says that there is an odd number of small triangles which have the three labels A, B, and C. <br><br>
+			
+			To read more about how Sperner’s Lemma helps to split apartment rent, check out the <a href="https://www.nytimes.com/2014/04/29/science/to-divide-the-rent-start-with-a-triangle.html">NYTimes article “To Divide the Rent, Start With a Triangle""</a>. <br><br>
+			
+		</div>
+		
+	</div>
+</div>
+	
+	
+	
+	
+	</body>
+</html>
