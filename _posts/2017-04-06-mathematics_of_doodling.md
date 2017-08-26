@@ -3,7 +3,7 @@ layout: post
 title: Math Review of 'Mathematics of Doodling' (Ravi Vakil)
 ---
 
-<a href="http://math.stanford.edu/~vakil/files/monthly116-129-vakil.pdf"> 'The Mathematics of Doodling' Original Text </a>
+(<a href="http://math.stanford.edu/~vakil/files/monthly116-129-vakil.pdf">Original Text</a>)
 
 This paper illuminates the discovery process of mathematics: how asking a simple question, finding patterns, then asking interesting follow-up questions can inspire a journey of deep mathematical exploration. Vakil surveys mathematical ideas involved when examining certain properties of neighborhoods ($N_r$): the circular nature of $N_r$ as its radius approaches infinity and that $N_r$'s volume can be written as a polynomial. <br><br>
 
@@ -11,23 +11,22 @@ The paper begins by examining two-dimensional shapes. Given a shape $X$ on a pie
 
 Mathematically, the union of these curves is called a neighborhood. Another definition of a neighborhood is the set of points which are less than fixed radius away from a set. Given a shape $X$ and a constant $r \geq 0$, the ''radius $r$ neighborhood of $X$'' is
 
-  
-        \begin{equation}
-            N_r(X) = \{y: d(x,y) \leq r \textrm{ for some } x \in X\}.
-            %where d(x,y) stands for "distance"
-        \end{equation}
+\begin{equation}
+    N_r(X) = \{y: d(x,y) \leq r \textrm{ for some } x \in X\}.
+    %where d(x,y) stands for "distance"
+\end{equation}
   
 
 Vakil proves that as $r$ approaches infinity, we can squeeze $N_r(X)$ between two discs which converge in size. Hence $N_r(X)$ becomes more circular.
 
 Next, Vakil examines how the area (Area) and perimeter (Perim) of a neighborhood changes depending on $X$. If $X$ is a convex polygon, then
 
-        \begin{equation}
-            \textrm{Perim}(N_r(X)) = \textrm{Perim}(X) + 2\pi r \\
-        \end{equation}
-        \begin{equation}    
-            \textrm{Area}(N_r(X)) = \textrm{Area}(X) + \textrm{Perim}(X)r + \pi r^2.
-        \end{equation}
+\begin{equation}
+    \textrm{Perim}(N_r(X)) = \textrm{Perim}(X) + 2\pi r \\
+\end{equation}
+\begin{equation}    
+    \textrm{Area}(N_r(X)) = \textrm{Area}(X) + \textrm{Perim}(X)r + \pi r^2.
+\end{equation}
 
 This result also holds for all convex shapes which are not polygons. Further, if we remove the convexity assumption, this exact formula works if we use the notion of \textit{area with multiplicity}, i.e. overlapping areas of $N_r$ count doubly. For shapes such as a figure eight or a double loop, the perimeter and area equations differ slightly. In all cases, Vakil observes that the perimeter equation is the derivative of the area equation with respect to $r$. In fact, these equations are polynomial with respect to $r$ with well-chosen coefficients. Moving to shapes in higher dimensions, this polynomial behavior holds for the volume equation of $N_r$. <br><br>
 
