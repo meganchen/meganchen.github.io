@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+	
+	{% include head.html %}
+	
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 col-centered">
+					{% include header.html %}
+					
+					{% if page.title %}
+						{{ page.title }}
+					{% endif %}
+					
+				  {{content}}
+
+		      {% include footer.html %}
+				
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

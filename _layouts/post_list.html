@@ -7,11 +7,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-10 col-centered">
-					{{ content }}
 					{% include header.html %}
-		
+					
+					{{ content }}
+					
 					{% for post in site.posts %}
-					      <h1> {{ post.title }} {{ post.date }} </h1>
+					      <a href='{{ post.url }}'>
+									<h3> {{ post.title }} </h3>
+									<p> {{ post.date | date_to_string }} </p>
+								</a>
 					 {% endfor %}
 
 		      {% include footer.html %}
