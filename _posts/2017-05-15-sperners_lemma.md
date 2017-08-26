@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Facebook Post' Advertising Sperner's Lemma for Triangles
+title: Facebook Post Advertising Sperner's Lemma for Triangles
 ---
-
+{{title}}
 <h3>"Facebook Post" Advertising Sperner's Lemma for Triangles</h3>
 
 After graduating from Wellesley, Ada, Bella, and Callie decide to move into an apartment together in Washington D.C. They settle upon an apartment with three rooms of different sizes: small, smaller, and smallest. Rent costs $2000 a month. Ada wants windows in her room, Bella wants quiet, and Callie’s happy to pay extra. Is it possible for all three to choose rooms they like and to divide the rent suitably for everyone? <br><br>
@@ -16,7 +16,7 @@ First, split a triangle into many smaller triangles (see Figure 1). Label the tr
 	<li>Randomly assign A, B, or C to the inside (purple) point(s).</li>
 </ol>
 <div class="container">
-	<img src="img/sperner'slemma.png"></img><br>
+	<img src="{{site.baseurl}}/img/sperner'slemma.png"></img><br>
 	<p class="text-center">Figure 1: Example Labelling</p>
 </div>
 <br>
