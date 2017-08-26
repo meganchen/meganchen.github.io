@@ -1,2 +1,5 @@
-name: megan chen's website #name of our site
+#site name
+name: megan chen's website 
+
+# Build settings
 markdown: kramdown
