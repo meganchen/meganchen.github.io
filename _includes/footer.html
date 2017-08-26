@@ -6,20 +6,20 @@
 			{% endif %}
 		
 			<div class = "pull-right">
-				{% if site.git.github_username %}
-				<a href="https://github.com/{{site.git.github_username}}">
+				{% if site.github_username %}
+				<a href="https://github.com/{{site.github_username}}">
 					<i class="fa fa-github fa-2x"></i>
 				</a>
 				{% endif %}
 				
 				{% if site.git.bitbucket_username %}
-				<a href="https://bitbucket.org/{{site.git.bitbucket_username}}/">
+				<a href="https://bitbucket.org/{{site.bitbucket_username}}/">
 					<i class="fa fa-bitbucket fa-2x"></i>
 				</a>
 				{% endif %}
 				
 				{% if site.git.gitlab_username %}
-				<a href="https://gitlab.com/{{site.git.gitlab_username}}">
+				<a href="https://gitlab.com/{{site.gitlab_username}}">
 					<i class="fa fa-gitlab fa-2x"></i>
 				</a>
 				{% endif %}
