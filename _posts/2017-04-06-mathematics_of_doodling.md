@@ -3,7 +3,7 @@ layout: post
 title: Math Review of 'Mathematics of Doodling' (Ravi Vakil)
 ---
 
-(<a href="http://math.stanford.edu/~vakil/files/monthly116-129-vakil.pdf">Original Text</a>)
+(<a href="http://math.stanford.edu/~vakil/files/monthly116-129-vakil.pdf">'Mathematics of Doodling' Original Text</a>)
 
 This paper illuminates the discovery process of mathematics: how asking a simple question, finding patterns, then asking interesting follow-up questions can inspire a journey of deep mathematical exploration. Vakil surveys mathematical ideas involved when examining certain properties of neighborhoods ($N_r$): the circular nature of $N_r$ as its radius approaches infinity and that $N_r$'s volume can be written as a polynomial. <br><br>
 
