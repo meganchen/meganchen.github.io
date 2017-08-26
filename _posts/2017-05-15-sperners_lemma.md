@@ -16,7 +16,7 @@ First, split a triangle into many smaller triangles (see Figure 1). Label the tr
 	<li>Randomly assign A, B, or C to the inside (purple) point(s).</li>
 </ol>
 <div class="container">
-	<img src="{{site.baseurl}}/img/sperner'slemma.png"></img><br>
+	<img src="{{site.baseurl}}/img/sperner'slemma.png"><br>
 	<p class="text-center">Figure 1: Example Labelling</p>
 </div>
 <br>
