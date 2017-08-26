@@ -7,11 +7,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-10 col-centered">
+					
 					{% include header.html %}
 					
-					{% if title %}
-						{{ title }}
-					{% endif %}
+					<h1>{{ page.title }}</h1>
+					<p> {{ post.date | date_to_string }} </p>
 					
 				  {{content}}
 

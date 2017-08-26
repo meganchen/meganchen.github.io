@@ -2,8 +2,6 @@
 layout: post
 title: Facebook Post Advertising Sperner's Lemma for Triangles
 ---
-{{title}}
-<h3>"Facebook Post" Advertising Sperner's Lemma for Triangles</h3>
 
 After graduating from Wellesley, Ada, Bella, and Callie decide to move into an apartment together in Washington D.C. They settle upon an apartment with three rooms of different sizes: small, smaller, and smallest. Rent costs $2000 a month. Ada wants windows in her room, Bella wants quiet, and Callie’s happy to pay extra. Is it possible for all three to choose rooms they like and to divide the rent suitably for everyone? <br><br>
 
